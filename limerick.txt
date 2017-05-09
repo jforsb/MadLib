@@ -1,0 +1,42 @@
+
+<limerick> ::= <limerick1> | <limerick2>
+
+<limerick1>   ::= <rhymeA> <rhymeA> <rhymeB> <rhymeB> <rhymeA> .
+
+<limerick2>   ::= <rhymeC> <rhymeC> <rhymeD> <rhymeD> <rhymeC> .
+
+<article> <noun> <verb> <preposition> <pronoun> <optional_adjective> <noun>
+
+<rhymeA> ::= <intro> <wordA>
+
+<rhymeB> ::= <intro> <wordB> 
+
+<rhymeC> ::= <intro> <wordC>
+
+<rhymeD> ::= <intro> <wordD> 
+
+<wordA> ::= ceiling | feeling | healing | dealing | kneeling | | peeling | squealing | stealing | wheeling | appealing | Darjeeling | Ealing | keeling | unfeeling | seeing | revealing
+
+<wordB> ::= all | ball | after all | crawl | tall | ball | bihall | shawl | small | squall 
+
+<wordC> ::= nation | citation | creation | elation | cremation | formation | liberation | foundation | vocation | temptation | taxation | plantation | location | inflation | damnation | gyration | station | sensation | vacation | abdication | computation | celebration | desperation | graduation
+
+<wordD> ::= mistake | cake | remake | Sheikh | snake | fake | break | bake | ache | lake | take | wake | steak | make | quake | flake 
+
+<intro> ::= <article> <noun> <verb> <preposition> <pronoun> <optional_adjective> | <article> <noun> <verb> <article> | <preposition> <noun> <isthat> | <subject> | <subject> <isthat>
+
+<subject>  ::= <article> <optional_adjective> <noun> | <pronoun> <optional_adjective> <noun>
+
+<isthat> ::= that is | is that
+
+<article>  ::= the | a | an
+
+<noun>     ::= man | cow | car | penguin | armadillo | mountain | goat | sheep | office | building | farm | classroom | computer | desk | sailboat | racecar | surfer | pizza | middlebury | bihall
+
+<pronoun> ::= his | her | their
+
+<preposition> ::= in | on | under | over | before | after | to | towards | at | as | excluding | from | beside | beneath | near | regarding |towards | with | without | via | near | opposite | below | aboard
+
+<verb>     ::= loved | missed | hated | killed | leaped | cried | rolled | sang | exclaimed | slept | escaped | yelled | ran | swam | drowned | saved | streaked | healed | ate | exploded | fixed | walked | sailed | sat | mocked | buried | hiked | canoed | dances | explains | swims | loves | explodes | walks | runs | sails | sits | escapes | rolls | exclaims | sleeps | eats | mocks 
+
+<optional_adjective> ::= big | green | shiny | ecstatic | diseased | enormous| sneaky | widowed | divorced | detrimental | lazy | deranged | happy | burnt | eccentric | sparkly |formidable | EPSILON
